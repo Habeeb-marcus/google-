@@ -1,4 +1,4 @@
-     body {
+     html, body {
         height: 100%;
         width: 100%;
         margin: 0;
@@ -96,7 +96,7 @@ border-bottom: none;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 20px 13px;
 }
 
 input {
@@ -212,6 +212,7 @@ box-shadow: none;
 .lang-opt ul a {
     color: #1a0dab;
     margin: 5px;
+    font-size: 13px;
 }
     
 
@@ -290,3 +291,47 @@ box-shadow: none;
     border-bottom: 1px solid #70757a;
 }
 
+
+
+@media (max-width : 663px) {
+.field-cnt {
+    width: 95%;
+}
+
+main {
+    height: 100vh;
+}
+
+.main-cnt {
+    margin-top: 100px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer div {
+    margin: 6px;
+}
+
+#design {
+    order: 1;
+    margin-top: 23px;
+}
+
+ #about1{
+    order: 2;
+}
+
+.about-sec {
+    margin: 9px;
+}
+#setting {
+    order: 3;
+}
+
+body {
+    height: 100%;
+}
+}
